@@ -1,71 +1,55 @@
-# Getting Started with Create React App
+# NewZapp
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+NewZapp is a simple React application that allows users to fetch and display the latest news using the [News API](https://newsapi.org/). Please note that the API requests have Cross-Origin Resource Sharing (CORS) disabled, so to experience the full functionality, it is recommended to clone and launch the application on localhost.
 
-## Available Scripts
+## Getting Started
 
-In the project directory, you can run:
+1. Clone the repository to your local machine:
 
-### `npm start`
+    ```bash
+    git clone https://github.com/your-username/NewZapp.git
+    ```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. Navigate to the project directory:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    ```bash
+    cd NewZapp
+    ```
 
-### `npm test`
+3. Install the dependencies:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    ```bash
+    npm install
+    ```
 
-### `npm run build`
+4. Create a `.env` file in the root directory and add your News API key:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    ```env
+    REACT_APP_NEWS_API_KEY=your_api_key_here
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    You can obtain an API key by signing up on the [News API](https://newsapi.org/).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. Run the application:
 
-### `npm run eject`
+    ```bash
+    npm start
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+6. Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to view NewZapp with the latest news.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Note
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The live version of NewZapp is hosted on [https://newzapp-vear.vercel.app/](https://newzapp-vear.vercel.app/), but please be aware that this version only displays old news due to CORS restrictions on the deployed site. For real-time news updates, it's recommended to run the application locally.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Contributing
 
-## Learn More
+If you'd like to contribute to NewZapp, please follow our [contribution guidelines](CONTRIBUTING.md).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is licensed under the [MIT License](LICENSE).
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Newzapp
+Feel free to reach out if you have any questions or issues. Happy coding!
