@@ -7,7 +7,7 @@ NewZapp is a simple React application that allows users to fetch and display the
 1. Clone the repository to your local machine:
 
     ```bash
-    git clone https://github.com/your-username/NewZapp.git
+    git clone https://github.com/Mr-Malik-Aryan/Newzapp.git
     ```
 
 2. Navigate to the project directory:
@@ -42,9 +42,7 @@ NewZapp is a simple React application that allows users to fetch and display the
 
 The live version of NewZapp is hosted on [https://newzapp-vear.vercel.app/](https://newzapp-vear.vercel.app/), but please be aware that this version only displays old news due to CORS restrictions on the deployed site. For real-time news updates, it's recommended to run the application locally.
 
-## Contributing
 
-If you'd like to contribute to NewZapp, please follow our [contribution guidelines](CONTRIBUTING.md).
 
 ## License
 
